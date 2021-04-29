@@ -19,8 +19,6 @@ import {
   OptionLink,
 } from "./header.styles";
 
-import { auth } from "../../firebase/firebase.utils";
-
 const Header = ({ currentUser, hidden, signOutStart }) => (
   <HeaderContainer>
     <LogoContainer to="/">
